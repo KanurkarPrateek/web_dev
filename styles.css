@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root{
+    --color-primary:#001251;
+    --color-secondary:#2774de;
+}
+body{
+    background-color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: var(--color-white);
+    transition: all .4s ease-in-out;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+section{
+    min-height: ;
+}
+/*utility */
+.container{
+    margin-left: 165px;
+    margin-right: 165px;
+}
